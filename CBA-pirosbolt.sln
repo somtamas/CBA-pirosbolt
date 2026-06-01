@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBA-pirosbolt", "CBA-pirosbolt\CBA-pirosbolt.csproj", "{3DF850A9-C599-45C4-B5BC-D455ABCE085D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF850A9-C599-45C4-B5BC-D455ABCE085D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF850A9-C599-45C4-B5BC-D455ABCE085D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF850A9-C599-45C4-B5BC-D455ABCE085D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF850A9-C599-45C4-B5BC-D455ABCE085D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2F896C0-96C3-489A-A2B5-EECA97E77857}
+	EndGlobalSection
+EndGlobal
