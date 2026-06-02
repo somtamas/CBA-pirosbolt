@@ -2,13 +2,16 @@
 using System.Data;
 using System.Windows;
 
-namespace CBA_pirosbolt
+namespace eKreta
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
-    }
 
+        static string database = "";
+        static string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        public static string databasePath = System.IO.Path.Combine(path, database);
+    }
 }
