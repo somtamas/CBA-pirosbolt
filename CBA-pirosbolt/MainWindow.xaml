@@ -7,41 +7,62 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel Background="Red">
-        <StackPanel Height="30" DockPanel.Dock="Top" Width="377">
-            <TextBlock
-                FontWeight="Bold"
-                FontStyle="Italic"
-                Foreground="White"
-                Text="eKréta Adminisztrátori felület"
-                TextAlignment="Center" />
-        </StackPanel>
+        <TextBlock FontWeight="Bold" FontStyle="Italic" Foreground="White" Text="CBA Adminisztrátori felület" Height="20" DockPanel.Dock="Top" FontSize="15"/>
         <StackPanel
             Width="200"
             Background="IndianRed"
-            DockPanel.Dock="Left">
-            <ListView Height="404">
+            DockPanel.Dock="Left" Height="415">
+            <ListView Height="400" Background="IndianRed">
                 <ListViewItem
                     x:Name="productMenu"
                     Content="Termékek"
-                    MouseLeftButtonUp="diakMenu_MouseLeftButtonUp" />
+                    MouseLeftButtonUp="diakMenu_MouseLeftButtonUp"
+                    FontSize="14"
+                    BorderBrush="Pink"
+                    BorderThickness="2"
+                    Foreground="MediumVioletRed"
+                    FontWeight="Bold"/>
                 <ListViewItem
                     x:Name="walletMenu"
                     Content="Vásárló"
-                    MouseLeftButtonUp="tanarMenu_MouseLeftButtonUp"/>
+                    MouseLeftButtonUp="tanarMenu_MouseLeftButtonUp"
+                    FontSize="14"
+                    BorderBrush="Pink"
+                    BorderThickness="2"
+                    Margin="0,5,0,0"
+                    Foreground="MediumVioletRed"
+                    FontWeight="Bold"/>
                 <ListViewItem
                     x:Name="cashierMenu"
                     Content="Kasszás"
-                    MouseLeftButtonUp="osztalyMenu_MouseLeftButtonUp"/>
+                    MouseLeftButtonUp="osztalyMenu_MouseLeftButtonUp"
+                    FontSize="14"
+                    BorderBrush="Pink"
+                    BorderThickness="2"
+                    Margin="0,5,0,0"
+                    Foreground="MediumVioletRed"
+                    FontWeight="Bold"/>
                 <ListViewItem
                     x:Name="managerMenu"
                     Content="Termek"
-                    MouseLeftButtonUp="termekMenu_MouseLeftButtonUp"/>
+                    MouseLeftButtonUp="termekMenu_MouseLeftButtonUp"
+                    FontSize="14"
+                    BorderBrush="Pink"
+                    BorderThickness="2"
+                    Margin="0,5,0,0"
+                    Foreground="MediumVioletRed"
+                    FontWeight="Bold"/>
                 <ListViewItem
                     x:Name="kilepesMenu"
-                    Background="Red"
+                    Background="DarkRed"
                     Content="Bezárás"
-                    Foreground="White"
-                    MouseLeftButtonUp="kilepesMenu_MouseLeftButtonUp"/>
+                    MouseLeftButtonUp="kilepesMenu_MouseLeftButtonUp"
+                    FontSize="14"
+                    BorderBrush="Pink"
+                    BorderThickness="2"
+                    Margin="0,5,0,0"
+                    Foreground="MediumVioletRed"
+                    FontWeight="ExtraBold"/>
             </ListView>
         </StackPanel>
         <StackPanel x:Name="feladatPanel" DockPanel.Dock="Right" />
